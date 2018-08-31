@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package passport.profile;
+
+service ProfileService {
+    rpc getUserInfo (UserID) returns (UserInfo) {
+    }
+}
+
+service ProfileService2 {
+    rpc getUserInfo (UserID) returns (UserInfo) {
+    }
+}
+
+message UserID {
+    string userId = 1;
+}
+
+message UserInfo {
+    string userId = 1;
+    string username = 2;
+    string avatar = 3;
+    string nickname = 4;
+    string gender = 5;
+}
