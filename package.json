@@ -1,6 +1,6 @@
 {
   "name": "egg-grpc-client",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "",
   "eggPlugin": {
     "name": "grpcClient"
