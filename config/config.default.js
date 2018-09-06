@@ -12,7 +12,8 @@ exports.grpcClient = {
     // client: {
     //     protoPath: 'app/grpc',
     //     host: '0.0.0.0',
-    //     port: '50051'
+    //     port: '50051',
+    //     deadline: 8000,
     // }
     // clients: {
     //     server1: {
