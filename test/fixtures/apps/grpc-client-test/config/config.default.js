@@ -13,5 +13,12 @@ exports.grpcClient = {
         enums: String,
         defaults: true,
         oneofs: true
+    },
+    clients: {
+        passport: {
+            protoPath: 'grpc',
+            host: '0.0.0.0',
+            port: '50051',
+        }
     }
 };
