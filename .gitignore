@@ -8,3 +8,4 @@ run/
 *.swp
 package-lock.json
 .github/
+.nyc_output
